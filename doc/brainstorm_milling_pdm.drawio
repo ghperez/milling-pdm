@@ -198,196 +198,30 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vMv0rT93kVvYiPGcHpho" name="Tabela de Hipóteses">
-    <mxGraphModel dx="1235" dy="1103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1223" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-1" parent="1" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;strokeColor=#6c8ebf;fontSize=18;fillColor=#dae8fc;fontStyle=1" value="Tabela de Hipóteses" vertex="1">
-          <mxGeometry height="530" width="1629" x="1" as="geometry" />
+        <mxCell id="twSVUHu1p64yuvdsuXWx-3" edge="1" parent="1" source="twSVUHu1p64yuvdsuXWx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="twSVUHu1p64yuvdsuXWx-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-2" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="50" width="1629" y="30" as="geometry" />
+        <mxCell id="twSVUHu1p64yuvdsuXWx-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Milling PdM" vertex="1">
+          <mxGeometry height="60" width="320" x="150" y="80" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-3" parent="4DbL-8b2SyJn07x8Bfj3-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Variável" vertex="1">
-          <mxGeometry height="50" width="277" as="geometry">
-            <mxRectangle height="50" width="277" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="twSVUHu1p64yuvdsuXWx-6" edge="1" parent="1" source="twSVUHu1p64yuvdsuXWx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="twSVUHu1p64yuvdsuXWx-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-4" parent="4DbL-8b2SyJn07x8Bfj3-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Hipótese" vertex="1">
-          <mxGeometry height="50" width="409" x="277" as="geometry">
-            <mxRectangle height="50" width="409" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="twSVUHu1p64yuvdsuXWx-7" edge="1" parent="1" source="twSVUHu1p64yuvdsuXWx-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="twSVUHu1p64yuvdsuXWx-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-5" parent="4DbL-8b2SyJn07x8Bfj3-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Resultado do teste" vertex="1">
-          <mxGeometry height="50" width="534" x="686" as="geometry">
-            <mxRectangle height="50" width="534" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="twSVUHu1p64yuvdsuXWx-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Notebooks" vertex="1">
+          <mxGeometry height="30" width="230" x="340" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-18" parent="4DbL-8b2SyJn07x8Bfj3-2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=#6c8ebf;overflow=hidden;fillColor=#dae8fc;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;fontStyle=1" value="Conclusão" vertex="1">
-          <mxGeometry height="50" width="409" x="1220" as="geometry">
-            <mxRectangle height="50" width="409" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="twSVUHu1p64yuvdsuXWx-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="01_exploratory_data_analysis.ipynb" vertex="1">
+          <mxGeometry height="30" width="210" x="500" y="230" as="geometry" />
         </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-6" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" value="" vertex="1">
-          <mxGeometry height="100" width="1629" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-7" parent="4DbL-8b2SyJn07x8Bfj3-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="air_temperature_kelvin" vertex="1">
-          <mxGeometry height="100" width="277" as="geometry">
-            <mxRectangle height="100" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-8" parent="4DbL-8b2SyJn07x8Bfj3-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Existem cenários diferentes de operação normal e distúrbio" vertex="1">
-          <mxGeometry height="100" width="409" x="277" as="geometry">
-            <mxRectangle height="100" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-9" parent="4DbL-8b2SyJn07x8Bfj3-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Média de temperaturas maior quando falhas HDF com uma variabilidade muito pequena. Já para OSF, PWF e RDF medida pelo IQR ficou muito próxima do IQR de todos os dados com um indicativo de calda longa nas maiores temperaturas. Os resultados no cenário de TWF ficaram muito próximos do restante dos dados." vertex="1">
-          <mxGeometry height="100" width="534" x="686" as="geometry">
-            <mxRectangle height="100" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-19" parent="4DbL-8b2SyJn07x8Bfj3-6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="HDF: temperatura ambiente parece um indicativo claro&lt;br&gt;OSF, PWF e RDF: pode estar relacionada com a assimetria&lt;br&gt;TWF: não há correlação" vertex="1">
-          <mxGeometry height="100" width="409" x="1220" as="geometry">
-            <mxRectangle height="100" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-21" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="70" width="1629" y="180" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-22" parent="4DbL-8b2SyJn07x8Bfj3-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="process_temperature_kelvin" vertex="1">
-          <mxGeometry height="70" width="277" as="geometry">
-            <mxRectangle height="70" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-23" parent="4DbL-8b2SyJn07x8Bfj3-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Existem cenários diferentes de operação normal e distúrbio" vertex="1">
-          <mxGeometry height="70" width="409" x="277" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-24" parent="4DbL-8b2SyJn07x8Bfj3-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="HDF e RDF com médias maiores&lt;br&gt;HDF com pouca variabilidade&lt;br&gt;Demais parecidos com as métricas da base toda" vertex="1">
-          <mxGeometry height="70" width="534" x="686" as="geometry">
-            <mxRectangle height="70" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-25" parent="4DbL-8b2SyJn07x8Bfj3-21" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="HDF: indicativo claro de distúrbio operacional que leva a falha" vertex="1">
-          <mxGeometry height="70" width="409" x="1220" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-26" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="60" width="1629" y="250" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-27" parent="4DbL-8b2SyJn07x8Bfj3-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="rotational_speed_rpm" vertex="1">
-          <mxGeometry height="60" width="277" as="geometry">
-            <mxRectangle height="60" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-28" parent="4DbL-8b2SyJn07x8Bfj3-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Existem cenários diferentes de operação normal e distúrbio" vertex="1">
-          <mxGeometry height="60" width="409" x="277" as="geometry">
-            <mxRectangle height="60" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-29" parent="4DbL-8b2SyJn07x8Bfj3-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="high IQR and range for PWF failures, frequency tables has peaks in low and high rotational speeds" vertex="1">
-          <mxGeometry height="60" width="534" x="686" as="geometry">
-            <mxRectangle height="60" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-30" parent="4DbL-8b2SyJn07x8Bfj3-26" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Rotational speed in PWF conditions is bimodal distribution" vertex="1">
-          <mxGeometry height="60" width="409" x="1220" as="geometry">
-            <mxRectangle height="60" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-31" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="40" width="1629" y="310" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-32" parent="4DbL-8b2SyJn07x8Bfj3-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="torque_nm" vertex="1">
-          <mxGeometry height="40" width="277" as="geometry">
-            <mxRectangle height="40" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-33" parent="4DbL-8b2SyJn07x8Bfj3-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Existem cenários diferentes de operação normal e distúrbio" vertex="1">
-          <mxGeometry height="40" width="409" x="277" as="geometry">
-            <mxRectangle height="40" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-34" parent="4DbL-8b2SyJn07x8Bfj3-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="40" width="534" x="686" as="geometry">
-            <mxRectangle height="40" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-35" parent="4DbL-8b2SyJn07x8Bfj3-31" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="40" width="409" x="1220" as="geometry">
-            <mxRectangle height="40" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-37" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="40" width="1629" y="350" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-38" parent="4DbL-8b2SyJn07x8Bfj3-37" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="tool_wear_min" vertex="1">
-          <mxGeometry height="40" width="277" as="geometry">
-            <mxRectangle height="40" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-39" parent="4DbL-8b2SyJn07x8Bfj3-37" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="Existem cenários diferentes de operação normal e distúrbio" vertex="1">
-          <mxGeometry height="40" width="409" x="277" as="geometry">
-            <mxRectangle height="40" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-40" parent="4DbL-8b2SyJn07x8Bfj3-37" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="40" width="534" x="686" as="geometry">
-            <mxRectangle height="40" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-41" parent="4DbL-8b2SyJn07x8Bfj3-37" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="40" width="409" x="1220" as="geometry">
-            <mxRectangle height="40" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-42" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="70" width="1629" y="390" as="geometry" />
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-43" parent="4DbL-8b2SyJn07x8Bfj3-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="-" vertex="1">
-          <mxGeometry height="70" width="277" as="geometry">
-            <mxRectangle height="70" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-44" parent="4DbL-8b2SyJn07x8Bfj3-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="As variáveis de processo confirmam que nos pontos marcados como alarme falso a máquina operava em regime normal?" vertex="1">
-          <mxGeometry height="70" width="409" x="277" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-45" parent="4DbL-8b2SyJn07x8Bfj3-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="70" width="534" x="686" as="geometry">
-            <mxRectangle height="70" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4DbL-8b2SyJn07x8Bfj3-46" parent="4DbL-8b2SyJn07x8Bfj3-42" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="70" width="409" x="1220" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ebYzuInbXFN8vK4wQuCf-1" parent="4DbL-8b2SyJn07x8Bfj3-1" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" vertex="1">
-          <mxGeometry height="70" width="1629" y="460" as="geometry" />
-        </mxCell>
-        <mxCell id="ebYzuInbXFN8vK4wQuCf-2" parent="ebYzuInbXFN8vK4wQuCf-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" value="delta = process_temperature_kelvin - air_temperature_kelvin" vertex="1">
-          <mxGeometry height="70" width="277" as="geometry">
-            <mxRectangle height="70" width="277" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ebYzuInbXFN8vK4wQuCf-3" parent="ebYzuInbXFN8vK4wQuCf-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" value="A diferença de temperatura entre o ambiente é um melhor indicativo de cenário de distúrbio quando o CLP indica falha por HDF" vertex="1">
-          <mxGeometry height="70" width="409" x="277" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ebYzuInbXFN8vK4wQuCf-4" parent="ebYzuInbXFN8vK4wQuCf-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="70" width="534" x="686" as="geometry">
-            <mxRectangle height="70" width="534" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ebYzuInbXFN8vK4wQuCf-5" parent="ebYzuInbXFN8vK4wQuCf-1" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;overflow=hidden;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;align=left;" vertex="1">
-          <mxGeometry height="70" width="409" x="1220" as="geometry">
-            <mxRectangle height="70" width="409" as="alternateBounds" />
-          </mxGeometry>
+        <mxCell id="twSVUHu1p64yuvdsuXWx-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;" value="02_reliability_analysis.ipynb" vertex="1">
+          <mxGeometry height="30" width="210" x="500" y="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
