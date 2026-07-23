@@ -2,6 +2,10 @@
 
 Repository for analysis of AI4I Predictive Maintenance dataset (Kaggle) to model milling machine failures.
 
+## 🗃️ Repository structure
+
+
+
 ## 🎯 Business Context & Problem Framing
 
 - Core Issue: after increasing their portfolio of products to supply new clients, a milling shop is struggling with frequent tool replacements.
@@ -16,7 +20,17 @@ Repository for analysis of AI4I Predictive Maintenance dataset (Kaggle) to model
 
 - The challenge: with the collected data, the Industrial Data Scientist should perform a reliability study of the machine obtaining the desired indicators and creating useful visualizations to help the decision making of the engineering staff on the next steps of the PdM program.
 
-## 💻 Data Analysis Framework
+## 🎯 Key Results
+
+✔ MTBF estimated:
+
+✔ Failure distributions analyzed:
+
+✔ Operating envelopes identified:
+
+✔ Candidate predictive features selected:
+
+## 💻 Data Analysis Framework & Architecture
 
 (1) All the data collected by the engineering staff was organized in their local PostgreSQL server and named as 'milling_shop_db'
 
@@ -30,15 +44,13 @@ Repository for analysis of AI4I Predictive Maintenance dataset (Kaggle) to model
 
 (6) Preliminary investigation of relevant aggregations was done using the SQL queries written in the script '04_analysis_of_aggregations', some other auxiliary scripts can be found at '/sql' folder
 
-(7*) The key findings from data quality checks and basic profiling done in the previous steps were documented in a jupyter notebook named as '01_exploration_and_profiling'
+(7) Further investigation of the statistical behaviour of the data using visualization tools (boxplots, histograms and scatter plots) was performed using Python libraries such as Pandas, Matplolib and Seaborn and the code was organized in the jupyter notebook '01_exploration_and_profiling'. The key findings from data quality checks and basic profiling done in the previous steps were documented in the same jupyter notebook.
 
-(8*) Further investigation of the statistical behaviour of the data using visualization tools (boxplots, histograms and scatter plots) was performed using Python libraries such as Pandas, Matplolib and Seaborn and the code was organized in the jupyter notebook '01_exploration_and_profiling', which also included other EDA (Exploratory Data Analysis) steps like identifying the most relevant data aggregations.
+(9) All information extracted in the previous stages was used to update the collumn dictionary presented in the '📖 Column Dictionary' session
 
-(9*) All information extracted in the previous stages was used to update the collumn dictionary presented in the '📖 Column Dictionary' session
+(10) Process variables analysis was performed in order to find potential trigger values for predicting failure modes.
 
-(10*) Avaliação das variáveis alvo, os parâmetros de confiabilidade
-
-(11*) Estudo de separabilidade das features que representam as variáveis de processo que verifique se elas são úteis para classificar a falha em um dos modos listados 
+(11*) Um estudo básico de confiabilidade das ferramentas foi realizado a fim de otimizar o plano de inspeção preventiva já implementado pela empresa.
 
 (12*) Gerar uma síntese visual dos principais resultados em um dashboard (PowerBI / Looker)
 
