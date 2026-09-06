@@ -4,89 +4,85 @@ Repository for exploratory analysis of AI4I Predictive Maintenance dataset (Kagg
 
 ## 🎯 Business Context & Problem Framing
 
-- Core Issue: after increasing their portfolio of products to supply new clients, a milling shop is struggling with frequent tool replacements.
+- The Problem: unexpected machine failures interrupt production and require unplanned maintenance, increasing operational costs and downtime.
 
-- The Impact: despite the increase in revenue after the portfolio expansion, their backlog accumulated too many work orders and the costs with maintenance increased exponentially, undermining their potential profits.
+- The Objective: investigate the relationship between process variables and machine failures and develop a classification system to identify operations at higher risk of failure.
 
-- Proposed Solution: in order to reduce the maintenance costs, the milling shop engineering staff proposed the implementation of a Predictive Maintenance (PdM) program that should start by leveraging simple failure data on one of their CNC machines (named CNC01).
+- The Approach: historical operating conditions and failure records from a CNC machine are analyzed to identify relevant patterns and train a binary classification model.
 
-- The Goal: in this first step, the primary objective is to investigate the correlation between **process variables** and failure conditions and develop a classification system to identify operations at higher risk of failure and support preventive inspection decisions.
-
-- The Methodology: failure modes and relevant process variables were identified, including temperature, rotational speed, torque and tool wear. Unplanned shutdowns were investigated and classified according to the predefined failure modes.
-
-- The challenge: with the collected failure data, the Industrial Data Scientist should perform an exploratory analysis and deploy a classification system that could predict machine failures.
+- The Decision: model predictions can support preventive inspection decisions, with the classification threshold selected according to the acceptable trade-off between missed failures and unnecessary inspections.
 
 ## 🎯 Key Results
 
-✔ Process variables failure thresholds identified:
+✔ Well defined failure operating envelopes identified:
 
-✔ Candidate predictive features selected:
+| Variable | Limits | Failure Mode
+| --- | --- | ---
+| Temperature Difference | Below 8.6 °C | Heat Dissipation Failure (HDF)
+| Rotational Speed | Below 1379 rpm | Heat Dissipation Failure (HDF)
+| Mechanical Power | Below 3.5kW and above 9kW | Power Failure (PWF)
+| Tool wear | Between 198 and 253 minutes | Tool Wear Failure (TWF)
 
-✔ Process operating regions associated with increased failure rates were identified.
+✔ Useful new features: Temperature Difference and Mechanical Power
 
-✔ [X] variables were selected as candidate predictors for failure classification.
-
-✔ The best-performing model achieved a recall of XX% on the test set.
+✔ The best-performing model achieved a recall of XX% on the test set
 
 ✔ Model interpretation showed that [features] were the main contributors to failure predictions.
 
 ✔ A Streamlit dashboard was developed to simulate failure-risk assessment for individual operations.
 
 
-## 🗂️ Dataset and data dictionary
+## 🗂️ Dataset
 
-| Column | Data Type | Constraint
-| --- | --- | --- |
-| register_id | SERIAL | PK |
-| product_id | VARCHAR(6) | DISTINCT |
-| product_type | CHAR | Either 'L', 'M' or 'H' |
-| air_temperature_kelvin | REAL | - |
-| process_temperature_kelvin | REAL | - |
-| rotational_speed_rpm | REAL | - |
-| torque_nm | REAL | - | - |
-| tool_wear_min | SMALLINT | - |
-| machine_failure | BOOL | - |
-| tool_wear_failure | BOOL | - |
-| heat_dissipation_failure | BOOL | - |
-| power_failure | BOOL | - |
-| overstrain_failure | BOOL | - |
-| random_failure | BOOL | - |
+The analysis uses the AI4I 2020 Predictive Maintenance Dataset, which contains 10,000 observations of machine operating conditions and failure events. The dataset includes process variables such as air and process temperature, rotational speed, torque and tool wear, along with binary indicators for different failure modes.
 
-**Data dictionary**:
+For the predictive model training, the following variables were used:
 
-1. 'register_id': primary key that identifies each data acquisition point, i.e. each milling operation (SERIAL).
+| Feature | Description |
+| --- | --- |
+| product_type | Quality of the machined product |
+| air_temperature_kelvin | Air temperature |
+| process_temperature_kelvin | Process temperature |
+| rotational_speed_rpm | Rotational Speed |
+| torque_nm | Torque |
+| tool_wear_min | Tool wear accumulated during operation |
+| machine_failure | Binary indicator of failure |
 
-2. 'product_id': unique code that identifies which product was being processed at that cycle. It's a unique 6 characters string that starts with L/M/H indicating the product quality and ends with a 5 digit integer.
 
-3. 'product_type': character that relates to the product quality.
-
-    - 'L' which stands for low quality products that adds 2 minutes of tool wear time;
-    - 'M' which stands for medium quality products that adds 3 minutes of tool wear time;
-    - 'H' which stands for high quality products that adds 5 minutes of tool wear time.
- 
-3. 'air_temperature_kelvin': mean measured room temperature measured during each milling operation in Kelvin.
-
-4. 'process_temperature_kelvin': mean measured tool temperature measured during each milling operation in Kelvin.
-
-5. 'rotational_speed_rpm': mean tool rotational speed measured at the machine's engine axis during each milling operation in rotations per minute.
-
-6. 'torque_nm': mean torque measured at the machine's spindle drive system during each milling operation in N.m.
-
-7. 'tool_wear_min': accumulated wear indicator in minutes, refer to product qualities to know how much wear time each product adds to the tool.
-
-8. 'machine_failure': equals TRUE when machine's global failure was detected, i.e. a failure caused an unplanned shutdown and maintenance activities were performed as well as a root cause analysis for classifying the failure into the predetermined list of most common failure modes.
-
-9. 'tool_wear_failure': indicates if the failure cause was due to tool wear.
-
-10. 'heat_dissipation_failure': indicates if the failure cause was heat dissipation.
-
-11. 'power_failure': indicates if the failure cause was power-related.
-
-12. 'overstrain_failure': indicates if the failure cause was overstrain.
-
-13. 'random_failure': indicates whether the observed machine failure was classified as a random failure according to the predefined failure-mode classification.
 
 ## 🧭 Exploratory Data Analysis key findings
+
+### Class imbalance
+
+![Class imbalance](doc/imbalance_plot.png)
+
+### New Features
+
+The following new featured prooved to be useful in indetifying failure envelopes:
+
+- Temperature Difference - $\Delta T(°C)$
+
+$$\Delta T(°C) = T_{process} - T_{air}$$
+
+- Mechanical Power - $P(kW)$
+
+$$\dfrac{\omega(rad/s) \cdot \tau(N.m)}{1000}$$
+
+### Heat Dissipation Failure Operating Conditions
+
+![HDF Operation Conditions](doc/hdf_operating_conditions.png)
+
+### Power Failure Regions
+
+![Power Failure Regions](doc/pwf_failure_regions.png)
+
+### Tool Wear Observed Useful Life
+
+![Tool Wear Observed Useful Life](doc/twf_failure_events.png)
+
+### Overstrain Failure Operating Envelope
+
+![Overstrain Failure Operating Envelope](doc/osf_failure_events.png)
 
 ## 🤖 Failure Classification
 
