@@ -66,7 +66,7 @@ $$\Delta T(°C) = T_{process} - T_{air}$$
 
 - Mechanical Power - $P(kW)$
 
-$$\dfrac{\omega(rad/s) \cdot \tau(N.m)}{1000}$$
+$$\dfrac{2\pi \cdot \omega(rpm) \cdot \tau(N.m)}{60000}$$
 
 ### Heat Dissipation Failure Operating Conditions
 
