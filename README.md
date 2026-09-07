@@ -41,8 +41,8 @@ For the predictive model training, the following variables were used:
 | Feature | Description |
 | --- | --- |
 | product_type | Quality of the machined product |
-| air_temperature_kelvin | Air temperature |
-| process_temperature_kelvin | Process temperature |
+| air_temperature_celsius | Air temperature |
+| process_temperature_celsius | Process temperature |
 | rotational_speed_rpm | Rotational Speed |
 | torque_nm | Torque |
 | tool_wear_min | Tool wear accumulated during operation |
